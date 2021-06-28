@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Designer(View view) {
-        startActivity(new Intent(getApplicationContext(), DesignActivity.class));
+        startActivity(new Intent(MainActivity.this, DesignActivity.class));
     }
 
     public void Development(View view) {
