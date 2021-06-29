@@ -49,7 +49,7 @@ public class About extends AppCompatActivity implements NavigationView.OnNavigat
         WebView myWebView = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("https://mayank816.github.io/covizoneAbout/");
+        myWebView.loadUrl("https://mayank816.github.io/WorkerZ-Port-Page-/");
         mAuth = FirebaseAuth.getInstance();
     }
 
